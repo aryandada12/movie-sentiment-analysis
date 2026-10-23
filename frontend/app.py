@@ -38,7 +38,7 @@ if st.button("Analyze Sentiment"):
             try:
 
                 response = requests.post(
-                    ""https://movie-sentiment-analysis-bjy3.onrender.com/predict",
+                    "https://movie-sentiment-analysis-bjy3.onrender.com/predict",
                     json={
                         "review": review
                     }
